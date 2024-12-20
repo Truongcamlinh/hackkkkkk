@@ -11,11 +11,11 @@ typedef struct Dish Dish;
 int main()
 {
     Dish menu[100] = {
-        {1, "Pho", 50.0},
-        {2, "Banh Mi", 30.0},
-        {3, "Banh Cun", 40.0},
-        {4, "Goi cuon", 25.0},
-        {5, "Bun rieu", 35.0}};
+        {1, "Com Ga", 50.0},
+        {2, "Thit Cho", 30.0},
+        {3, "Banh Cuon", 40.0},
+        {4, "Pho", 25.0},
+        {5, "Banh Xeo", 35.0}};
     int size = 5;
     int choice, position;
     char search[100];
